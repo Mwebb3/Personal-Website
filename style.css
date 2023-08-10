@@ -4,11 +4,17 @@ body {
 h1 {
     text-align: center;
     margin-top: 0%;
+    font-size: 300%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 nav {
     display: flex;
     justify-content: space-evenly;
+    font-size:larger;
+    background-color: aquamarine;
 }
 div{
     background-color: white;
+    border-style: inset;
+    border-radius: 0.5rem;
 }
