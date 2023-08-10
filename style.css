@@ -5,16 +5,31 @@ h1 {
     text-align: center;
     margin-top: 0%;
     font-size: 300%;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
 }
 nav {
     display: flex;
     justify-content: space-evenly;
     font-size:larger;
     background-color: aquamarine;
+    font-family: arial;
+    color: black;
+}
+nav a:hover {
+    transition: all 1s;
+    background-color: darkcyan;
 }
 div{
     background-color: white;
     border-style: inset;
     border-radius: 0.5rem;
+}
+.quote {
+    padding-top: 10%;
+    background-color: darkcyan;
+    border-style: unset;
+    text-align: center;
+    font-size: 40px;
+    font-family:cursive
 }
