@@ -1,5 +1,8 @@
 body {
-    background-color: darkcyan;
+    background-image: url("https://media.istockphoto.com/id/823966410/photo/dark-cyan-grungy-background-with-lighter-middle.jpg?s=170667a&w=0&k=20&c=uq9vUkieWhnkp767Oh_COkjqSkHJ8yj32pmZSNqA5_o=");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1 {
     text-align: center;
@@ -7,6 +10,7 @@ h1 {
     font-size: 300%;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 5px;
+    color: darkcyan;
 }
 nav {
     display: flex;
@@ -22,14 +26,36 @@ nav a:hover {
 }
 div{
     background-color: white;
-    border-style: inset;
     border-radius: 0.5rem;
+    
 }
 .quote {
     padding-top: 10%;
-    background-color: darkcyan;
+    background-color: transparent;
     border-style: unset;
     text-align: center;
     font-size: 40px;
     font-family:cursive
+}
+.about {
+    padding-top: 10%;
+    border-style:none;
+    background-color: transparent;
+}
+img {
+    height: 30rem;
+    width: 15rem;
+    border-style: outset;
+    border-width: 10px;
+    border-color: aquamarine;
+    margin-left: 7%;
+    margin-top: 10px;
+}
+th{
+    font-size: 200%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p {
+    margin-left: 20%;
+    font-size: larger;
 }
